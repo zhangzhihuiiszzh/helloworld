@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/adv.bmp</file>
+        <file>images/break_little.bmp</file>
+        <file>images/BXZK_little.bmp</file>
+        <file>images/CXZK_little.bmp</file>
+        <file>images/ele.bmp</file>
+        <file>images/FDTJ_little.bmp</file>
+        <file>images/FSSJZJSCW_little.bmp</file>
+        <file>images/item.bmp</file>
+        <file>images/Loop_little.bmp</file>
+        <file>images/MCMN_little.bmp</file>
+        <file>images/MLZJOJY_little.bmp</file>
+        <file>images/MLZTBTFX_little.bmp</file>
+        <file>images/More_little.bmp</file>
+        <file>images/paraSet_little.bmp</file>
+        <file>images/phy.bmp</file>
+        <file>images/protocol.bmp</file>
+        <file>images/short_little.bmp</file>
+        <file>images/SJTHQF_little.bmp</file>
+        <file>images/SJZJOJY_little.bmp</file>
+        <file>images/SJZTBTFX_little.bmp</file>
+        <file>images/SLOPE_little.bmp</file>
+        <file>images/SLTJ_little.bmp</file>
+        <file>images/sound_little.bmp</file>
+        <file>images/TDSJSJLTH_little.bmp</file>
+        <file>images/wait_little.bmp</file>
+        <file>images/XHDJ_little.bmp</file>
+        <file>images/XHTH_little.bmp</file>
+        <file>images/XHYC_little.bmp</file>
+        <file>images/XYCWRTDZ_little.bmp</file>
+        <file>images/ZKBTJ_little.bmp</file>
+        <file>images/ZSDJ_little.bmp</file>
+        <file>images/ZTZJOJY_little.bmp</file>
+        <file>images/ZTZTBTFX_little.bmp</file>
+    </qresource>
+</RCC>

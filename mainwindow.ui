@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1081</width>
+    <height>814</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>41</y>
+      <width>861</width>
+      <height>691</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1081</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="new_2"/>
+    <addaction name="save"/>
+   </widget>
+   <widget class="QMenu" name="menutest">
+    <property name="title">
+     <string>test</string>
+    </property>
+    <addaction name="start"/>
+    <addaction name="stop"/>
+   </widget>
+   <widget class="QMenu" name="menunetconfig">
+    <property name="title">
+     <string>netconfig</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menutoolbar">
+    <property name="title">
+     <string>toolbar</string>
+    </property>
+    <addaction name="arrowtool"/>
+    <addaction name="faultmode"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menutest"/>
+   <addaction name="menutoolbar"/>
+   <addaction name="menunetconfig"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="minimumSize">
+    <size>
+     <width>163</width>
+     <height>749</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>198</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>故障工具箱</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="treeWidget">
+       <property name="minimumSize">
+        <size>
+         <width>141</width>
+         <height>701</height>
+        </size>
+       </property>
+       <column>
+        <property name="text">
+         <string>故障项</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="new_2">
+   <property name="text">
+    <string>new</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="start">
+   <property name="text">
+    <string>start</string>
+   </property>
+  </action>
+  <action name="stop">
+   <property name="text">
+    <string>stop</string>
+   </property>
+  </action>
+  <action name="arrowtool">
+   <property name="text">
+    <string>arrowtool</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="faultmode">
+   <property name="text">
+    <string>faultmode</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
